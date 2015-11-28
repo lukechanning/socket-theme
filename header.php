@@ -33,5 +33,8 @@ endif;
 ?>
 
 <body <?php body_class(); ?> style="background-image:url(<?php echo $imageURL ?>);">
+
+<?php get_template_part( 'navigation' ); ?>
+
 <div id="page" class="hfeed site">
 	<div id="content" class="site-content">

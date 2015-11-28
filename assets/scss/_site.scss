@@ -1,3 +1,9 @@
+//Get that hot bod, yo!
+body {
+    background-size: cover;
+    background-attachment: fixed;
+}
+
 .site-content {
     @include outer-container;
     .site-main {

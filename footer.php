@@ -13,6 +13,14 @@
 	</div><!-- .site-content -->
 
 	<footer id="colophon" class="site-footer" role="contentinfo">
+		<?php
+			if (! dynamic_sidebar('footer-left') ) :
+	            dynamic_sidebar('footer-left');
+	        endif;
+	        if (! dynamic_sidebar('footer-right') ) :
+	            dynamic_sidebar('footer-right');
+	        endif;
+        ?>
 	</footer><!-- .site-footer -->
 
 </div><!-- .site -->

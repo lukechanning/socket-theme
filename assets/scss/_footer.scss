@@ -1,0 +1,31 @@
+.site-footer {
+    margin: 4rem 0;
+    @include outer-container;
+    .footer-link {
+        @include span-columns(6);
+        a {
+            padding: 1rem 4rem;
+            border: 1px solid $white;
+            border-radius: 3px;
+            text-decoration: none;
+            &:hover {
+                background-color: $white;
+                color: $black;
+            }
+        }
+    }
+    .footer-link.left {
+        text-align: right;
+    }
+    .footer-link.right {
+        text-align: left;
+        a {
+            font-size: em(13);
+            border-color: $green;
+            &:hover {
+                background-color: $green;
+                color: $white;
+            }
+        }
+    }
+}
