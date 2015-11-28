@@ -16,17 +16,15 @@
 
 get_header(); ?>
 
-	<div id="primary" class="content-area">
-		<main id="main" class="site-main" role="main">
-            <?php
-            if (! dynamic_sidebar('demo-intro') ) :
-                dynamic_sidebar('demo-intro');
-            endif;
-            if (! dynamic_sidebar('plugin-demo') ) :
-                dynamic_sidebar('plugin-demo');
-            endif;
-            ?>
-		</main><!-- .site-main -->
-	</div><!-- .content-area -->
+	<main id="main" class="site-main" role="main">
+        <?php
+        if (! dynamic_sidebar('demo-intro') ) :
+            dynamic_sidebar('demo-intro');
+        endif;
+        if (! dynamic_sidebar('plugin-demo') ) :
+            dynamic_sidebar('plugin-demo');
+        endif;
+        ?>
+	</main><!-- .site-main -->
 
 <?php get_footer(); ?>

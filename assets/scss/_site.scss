@@ -1,0 +1,7 @@
+.site-content {
+    @include outer-container;
+    .site-main {
+        @include span-columns(8);
+        @include shift(2);
+    }
+}

@@ -12,5 +12,5 @@ if( ! function_exists( 'socket_enqueue_style' ) ) {
 
     }
 }
-add_action( 'wp_enqueue_scripts', 'socket_enqueue_style' );
+add_action( 'wp_enqueue_scripts', 'socket_enqueue_style');
 ?>

@@ -1,6 +1,8 @@
 .intro-text {
-    display: block;
-    width: 100%;
+    margin-top: rem(75);
     text-align: center;
     line-height: rem(24);
+    h1 {
+        text-shadow: 0 5px 2px rgba(25,25,25,0.75);
+    }
 }
