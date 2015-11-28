@@ -4,6 +4,7 @@
     .footer-link {
         @include span-columns(6);
         a {
+            font-size: em(13);
             padding: 1rem 4rem;
             border: 1px solid $white;
             border-radius: 3px;
@@ -20,7 +21,6 @@
     .footer-link.right {
         text-align: left;
         a {
-            font-size: em(13);
             border-color: $green;
             &:hover {
                 background-color: $green;
