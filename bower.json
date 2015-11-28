@@ -1,0 +1,6 @@
+{
+  "name": "socket_theme",
+  "dependencies": {
+    "bourbon": "~4.2.6"
+  }
+}

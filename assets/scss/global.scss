@@ -1,5 +1,9 @@
 //Let's get the basics!
 
+//Start by pouring some Bourbon
+@import "bower_components/bourbon/app/assets/stylesheets/bourbon";
+
+//Then get the theme specific stuff
 @import 'colors';
 @import 'typography';
 @import 'demo-text';
