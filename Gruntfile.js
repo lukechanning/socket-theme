@@ -9,7 +9,7 @@ module.exports = function (grunt) {
                     sourceMap: true,
                 },
                 files: {
-                    'style.css': 'assets/scss/global.scss',
+                    'app.css': 'assets/scss/global.scss',
                 }
             }
         },

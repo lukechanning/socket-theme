@@ -1,4 +1,10 @@
 <?php
+/**
+*
+* @package WordPress
+* @subpackage Socket_theme
+* @since 1.0.0
+*/
 //Let's get rolling with some basic stuff!
 
 //Loud our scripts and styles
