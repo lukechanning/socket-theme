@@ -1,9 +1,14 @@
-/**
-*
-* WordPress makes us use this file for now, so let's make sure everything else gets stuck in app.css
-* if you particularly want to, you can also add custom CSS of the plain variety here, just enqueue it after
-*
-* @package WordPress
-* @subpackage Socket_theme
-* @since 1.0.0
+/*
+Theme Name: Socket Theme
+Theme URI: http://routerchowder.com
+Author: Router Chowder
+Author URI: http://routerchowder.com/themes
+Description: An extremely lightweight and easily managed demo page-ish theme for showing off your latest build
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: socket-theme
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
 */
