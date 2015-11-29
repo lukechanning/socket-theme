@@ -1,6 +1,6 @@
 <header class="navigation" role="banner">
     <div class="navigation-wrapper">
-        <a href="javascript:void(0)" class="logo">
+        <a href="/" class="logo">
         <?php
             if( get_theme_mod( 'socket_logo') ) :
                 echo '<img src="'. esc_url(get_theme_mod( 'socket_logo' )) .'">';
